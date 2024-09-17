@@ -7,8 +7,9 @@ class COrder :
         self.weight = 0
         self.floor = 0
         self.elevator = False 
+        self.Generate_Order()
     
-    #Генерация случайного заказа
+    #Генерация случайного заказаa
     def Generate_Order(self):
         self.weight = random.uniform(1, 300)
         self.floor = random.uniform(1, 50)
