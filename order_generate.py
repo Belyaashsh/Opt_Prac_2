@@ -7,12 +7,11 @@ class COrder :
         self.weight = 0
         self.floor = 0
         self.elevator = False 
-        self.Generate_Order()
-    
     #Генерация случайного заказаa
     def Generate_Order(self):
-        self.weight = random.uniform(1, 300)
-        self.floor = random.uniform(1, 50)
+        self.weight = random.randint(1, 300)
+        
+        self.floor = random.randint(1, 50)
         
         check_elevator = random.random()
         if (check_elevator >= 0.5) :

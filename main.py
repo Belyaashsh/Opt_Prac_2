@@ -1,9 +1,12 @@
 from calc import calc
 from order_generate import COrder
 
-price = calc.Calculate_Price()
+order = COrder
+order.Generate_Order(order)
 
-print("Weight:")
-print("Floor:")
-print("Elevator:")
-print("Total price:")
+price = calc.Calculate_Price(order)
+
+print("Weight:" , order.weight)
+print("Floor:", order.floor)
+print("Elevator:", order.elevator)
+print("Total price:", price)
