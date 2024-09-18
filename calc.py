@@ -17,3 +17,5 @@ class calc :
                 return 2000
             else :
                 return round(300 * round(order.weight / 100) * (order.floor - 1) + 2000)    
+
+#change example
