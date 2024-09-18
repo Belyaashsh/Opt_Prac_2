@@ -13,3 +13,6 @@ print("Floor:", order.floor)
 print("Elevator:", order.elevator)
 print("Total price:", price)
 print("------------------")
+
+
+#Подобие изменений
